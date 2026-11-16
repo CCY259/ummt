@@ -380,16 +380,16 @@ const questions = [
     },
     answer: "A"
   },
-  {
-    question_ac: "In polar coordinates, $x = r \\cos \\theta$. Clearly we have $\\left(\\frac{\\partial x}{\\partial r}\\right)_\\theta = \\cos \\theta$. Does this imply that $\\left(\\frac{\\partial r}{\\partial x}\\right)_y = \\frac{1}{\\cos \\theta}$?",
-    options: {
-      A: "Yes, because $\\frac{\\partial r}{\\partial x}=1/(\\frac{\\partial x}{\\partial r})$.",
-      B: "Yes, because $r \\neq 0$.",
-      C: "No, because the variable held constant in the reciprocal $\\frac{\\partial r}{\\partial x}$ is $\\theta$, but here $y$ is held constant.",
-      D: "No, because derivatives cannot be inverted like fractions."
-    },
-    answer: "C"
+{
+  question_ac: "In polar coordinates, $x=r\\cos\\theta$ and $y=r\\sin\\theta$, where $r>0$. At the point $(x,y)=(4,3)$, find the values of $\\left(\\frac{\\partial r}{\\partial x}\\right)_y$ and $\\left(\\frac{\\partial r}{\\partial x}\\right)_\\theta$, respectively.",
+  options: {
+    A: "$\\frac54$ and $\\frac45$.",
+    B: "$\\frac45$ and $\\frac54$.",
+    C: "$\\frac35$ and $\\frac53$.",
+    D: "$\\frac45$ and $\\frac45$."
   },
+  answer: "B"
+},
   {
     question_ac: "In T4 Q3, to find $\\left(\\frac{\\partial r}{\\partial x}\\right)_y$ correctly when we are given $x^2+y^2=r^2$ and $x = r\\cos \\theta$, which of the following is the most direct approach?",
     options: {
